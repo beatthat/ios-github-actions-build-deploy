@@ -13,6 +13,7 @@
 		1A240018241B4F92001C0CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A240016241B4F92001C0CDE /* Main.storyboard */; };
 		1A24001A241B4F93001C0CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A240019241B4F93001C0CDE /* Assets.xcassets */; };
 		1A24001D241B4F93001C0CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A24001B241B4F93001C0CDE /* LaunchScreen.storyboard */; };
+		1A47361B241DD4A7008D1009 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A47361A241DD4A7008D1009 /* exportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1A240019241B4F93001C0CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A24001C241B4F93001C0CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A24001E241B4F93001C0CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A47361A241DD4A7008D1009 /* exportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1A240019241B4F93001C0CDE /* Assets.xcassets */,
 				1A24001B241B4F93001C0CDE /* LaunchScreen.storyboard */,
 				1A24001E241B4F93001C0CDE /* Info.plist */,
+				1A47361A241DD4A7008D1009 /* exportOptions.plist */,
 			);
 			path = helloworld;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				1A24001D241B4F93001C0CDE /* LaunchScreen.storyboard in Resources */,
 				1A24001A241B4F93001C0CDE /* Assets.xcassets in Resources */,
 				1A240018241B4F92001C0CDE /* Main.storyboard in Resources */,
+				1A47361B241DD4A7008D1009 /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
