@@ -11,7 +11,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.polarisisburning.helloworld</key>
-		<string>match AppStore com.polarisisburning.helloworld</string>
+		<string>com.polarisisburning.helloworld</string>
 	</dict>
 </dict>
 </plist>
