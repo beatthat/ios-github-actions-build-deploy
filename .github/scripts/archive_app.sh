@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-xcodebuild -workspace helloworld.xcworkspace \
+xcodebuild -project helloworld.xcodeproj \
             -scheme helloworld \
             -sdk iphoneos \
             -configuration AppStoreDistribution \
