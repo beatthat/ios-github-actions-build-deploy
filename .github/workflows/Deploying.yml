@@ -1,8 +1,6 @@
 name: Deploying
 on:
-  push:
-    branches:
-      - master
+  push: []
 jobs:
   deploy:
     name: Deploying to Testflight
@@ -10,8 +8,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v1
       - name: Install gpg
         run: brew install gnupg
       - name: Setup provisioning profile
